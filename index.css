@@ -1,35 +1,142 @@
-body{
-	background-color: black;
-	}
+*{
+	color: #000;
+}
 
-#container{
-	background-color: white;
-	width: 800px;
+main{
+	width: 850px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Pinyon Script', cursive;
+	font-size: 25px;
+}
+
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	}
+
+
 .table{
-	width: 800px;
 	margin-right: auto;
 	margin-left: auto;
 	border-collapse: collapse;
+	background-color: white;
+	width: 700px;
 }
 
 .table th{
-	background-color: red;
-	color: black;
+	background-color: black;
+	color: white;
 	border: 1px solid black;
+	font-style: italic;
 }
 
 .table tr{
 	height: 50px;
+	font-style: italic;
 }
 
 .table td{
 	border: 1px solid black;
 	text-align: center;
 }
+
+
+header{
+	text-align: center;
+	padding: 2px;
+	background-color: red;
+	color: white;
+    height: 60px; 
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+}
+
+.banner{
+	background-position: center;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+	width: 795px;
+}
+
+
+
+.sn{
+	width: 100px;
+}
+
+.amount{
+	color: red;
+	width: 100px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+.tableHeader{
+	text-align: center;
+	padding: 2px;
+	background-color: white;
+	color: balck;
+	width: 795px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+}
+
+#content{
+	background-color: white;
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+}
+
+#footer{
+	background-color: red;
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+#footer>p{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+}
+
+#footer>p span{
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+}
+
+#banner>img{
+	width: 100%;
+	height: auto;
+}
+
+#content>h2{
+	margin-top: 0px;
+}
+
+#header>h1{
+	color: white;
+}
+
+.section-padding{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 
 
